@@ -37,10 +37,18 @@ form fieldset {
   margin-top: 64px;
 }
 form legend {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 40px;
+  width: 100%;
 }
 form legend h2 {
   font-size: 24px;
+}
+form legend span {
+  color: var(--title-color);
+  font-size: 14px;
 }
 form .field {
   display: flex;
@@ -58,7 +66,7 @@ form select {
   border-radius: 8px;
   font-size: 16px;
   padding: 16px 24px;
-  /* outline: none; */
+  /* outline: none;  */
 }
 form select {
   appearance: none;
